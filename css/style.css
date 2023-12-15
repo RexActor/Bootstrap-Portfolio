@@ -16,37 +16,47 @@
     background-size: cover;
     background-repeat: no-repeat;
 
+
 }
 
 .work {
-    background: url("../images/bg.PNG");
+    /* background: url("../images/bg.PNG");
     background-size: cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     padding-bottom: 15px;
+    /* background: rgb(30, 10, 51); */
+    background: linear-gradient(rgb(14, 1, 27), rgb(72, 34, 112));
 }
 
 .skills {
-    background: url("../images/bg.PNG");
+    /* background: url("../images/bg.PNG");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     padding-bottom: 15px;
-}
 
-footer {
-    background: url("../images/bg.PNG");
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 15px;
+    background: linear-gradient(rgb(72, 34, 112), rgb(14, 1, 27));
 }
 
 .contactme {
-    background: url("../images/bg.PNG");
+    /* background: url("../images/bg.PNG");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background: linear-gradient(rgb(14, 1, 27), rgb(72, 34, 112));
     padding-bottom: 15px;
     color: white;
 
 }
+
+footer {
+    /* background: url("../images/bg.PNG");
+    background-size: cover;
+    background-repeat: no-repeat; */
+
+    background: linear-gradient(rgb(72, 34, 112), rgb(14, 1, 27));
+    padding-bottom: 15px;
+}
+
+
 
 footer a {
     text-decoration: none;
@@ -60,4 +70,8 @@ footer a:hover {
 .customFooter {
     width: 150px;
 
+}
+
+.btn:hover {
+    box-shadow: 10px 5px 5px rgb(14, 1, 27) !important;
 }
