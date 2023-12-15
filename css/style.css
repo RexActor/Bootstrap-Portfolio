@@ -1,3 +1,8 @@
+:root {
+    --dark-purple: rgb(14, 1, 27);
+    --light-purple: rgb(72, 34, 112);
+}
+
 .hero {
     background: url("../images/banner-image.jpg");
     background-size: cover;
@@ -12,47 +17,34 @@
 }
 
 .navbar {
-    background: url("../images/bg.PNG");
-    background-size: cover;
-    background-repeat: no-repeat;
 
+    background: var(--dark-purple) !important;
 
 }
 
 .work {
-    /* background: url("../images/bg.PNG");
-    background-size: cover;
-    /* background-repeat: no-repeat; */
+
     padding-bottom: 15px;
-    /* background: rgb(30, 10, 51); */
-    background: linear-gradient(rgb(14, 1, 27), rgb(72, 34, 112));
+
+    background: linear-gradient(var(--dark-purple), var(--light-purple));
 }
 
 .skills {
-    /* background: url("../images/bg.PNG");
-    background-size: cover;
-    background-repeat: no-repeat; */
+
     padding-bottom: 15px;
 
-    background: linear-gradient(rgb(72, 34, 112), rgb(14, 1, 27));
+    background: linear-gradient(var(--light-purple), var(--dark-purple));
 }
 
 .contactme {
-    /* background: url("../images/bg.PNG");
-    background-size: cover;
-    background-repeat: no-repeat; */
-    background: linear-gradient(rgb(14, 1, 27), rgb(72, 34, 112));
+    background: linear-gradient(var(--dark-purple), var(--light-purple));
     padding-bottom: 15px;
     color: white;
 
 }
 
 footer {
-    /* background: url("../images/bg.PNG");
-    background-size: cover;
-    background-repeat: no-repeat; */
-
-    background: linear-gradient(rgb(72, 34, 112), rgb(14, 1, 27));
+    background: linear-gradient(var(--light-purple), var(--dark-purple));
     padding-bottom: 15px;
 }
 
@@ -73,5 +65,5 @@ footer a:hover {
 }
 
 .btn:hover {
-    box-shadow: 10px 5px 5px rgb(14, 1, 27) !important;
+    box-shadow: 10px 5px 5px var(--dark-purple) !important;
 }
