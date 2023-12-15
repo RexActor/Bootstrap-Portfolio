@@ -1,0 +1,63 @@
+.hero {
+    background: url("../images/banner-image.jpg");
+    background-size: cover;
+    padding-bottom: 5px;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.nav-link:hover {
+    color: rgb(202, 164, 200) !important;
+    text-shadow: 2px 2px #6d1c62c5;
+}
+
+.navbar {
+    background: url("../images/bg.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.work {
+    background: url("../images/bg.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 15px;
+}
+
+.skills {
+    background: url("../images/bg.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 15px;
+}
+
+footer {
+    background: url("../images/bg.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 15px;
+}
+
+.contactme {
+    background: url("../images/bg.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 15px;
+    color: white;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: red;
+}
+
+.customFooter {
+    width: 150px;
+
+}
