@@ -22,6 +22,11 @@
 
 }
 
+.card {
+
+    width: 35rem !important;
+}
+
 .work {
 
     padding-bottom: 15px;
@@ -66,4 +71,8 @@ footer a:hover {
 
 .btn:hover {
     box-shadow: 10px 5px 5px var(--dark-purple) !important;
+}
+
+.subSection {
+    font-size: 60px;
 }
