@@ -1,5 +1,6 @@
 :root {
     --dark-purple: rgb(14, 1, 27);
+    --dark-purple-transparent: rgba(14, 1, 27, 0.5);
     --light-purple: rgb(72, 34, 112);
 }
 
@@ -9,6 +10,7 @@
     padding-bottom: 5px;
     background-repeat: no-repeat;
     height: 500px;
+
 }
 
 .nav-link:hover {
@@ -16,9 +18,16 @@
     text-shadow: 2px 2px #6d1c62c5;
 }
 
+.subHeading {
+    text-align: left;
+    padding-left: 10px;
+    margin-top: -10px;
+    font-size: 70px;
+}
+
 .navbar {
 
-    background: var(--dark-purple) !important;
+    background: var(--dark-purple-transparent) !important;
 
 }
 
